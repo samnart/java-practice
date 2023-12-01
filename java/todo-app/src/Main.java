@@ -45,7 +45,7 @@ public class Main {
 
 //    add tasks to the app
     private static void addTask() {
-        
+
     }
 
 //    remove tasks from the app
