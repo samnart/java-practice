@@ -10,7 +10,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation("junit:junit:5.9.1")
+    testImplementation("junit:junit:4.1.0")
+//    testImplementation("junit:junit:5.9.1")
     testImplementation("org.mockito:mockito-core:3.9.0")
     testImplementation("org.powermock:powermock-api-mockito2:2.0.9")
     testImplementation("org.powermock:powermock-module-junit4:2.0.9")
