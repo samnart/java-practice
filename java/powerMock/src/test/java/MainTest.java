@@ -1,13 +1,9 @@
 import org.example.Main;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-import org.powermock.core.classloader.annotations.PrepareForTest;
+import static org.powermock.api.mockito.PowerMockito.mockStatic;
+import static org.
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.never;
-import static org.mockito.Mockito.verify;
-import static org.powermock.api.mockito.PowerMockito.mockStatic;
-import static org.powermock.api.mockito.PowerMockito.when;
 
 @PrepareForTest({Main.class})
 public class MainTest {

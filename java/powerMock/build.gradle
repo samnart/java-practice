@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    testImplementation("org.powermock:powermock-module-junit4:x.y.z")
+    testImplementation("org.powermock:powermock-api-mockito2:x.y.z")
+}
+
+test {
+    useJUnitPlatform()
+}
