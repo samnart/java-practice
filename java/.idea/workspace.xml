@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bf7012a-70ca-41a2-8f42-2ef21643034d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/atm/src/atm/atm/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atm/src/atm/atm/Hardware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atm/src/atm/test/MockHardware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atm/src/atm/test/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atm/src/atm/test/ServiceMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atm/src/atm/test/TestATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-app/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-app/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3bf7012a-70ca-41a2-8f42-2ef21643034d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +24,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YZv6zxAKNxwBQ3OTs3DVDYJ2Hd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/samnart/github/projects/java"
   }
 }]]></component>
