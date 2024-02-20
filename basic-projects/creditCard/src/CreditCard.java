@@ -54,9 +54,14 @@ public class CreditCard
         return true;
     }
 
-    public void makePayment(double amount)
+    public String makePayment(double amount)
     {
-        balance -= amount;
+        if (!(balance - amount < 0)) {
+            balance -= amount;
+            return "Payment successful";
+        }
+        else
+            return "Insufficient balance";
     }
 
     public static void printSummary(CreditCard card)
