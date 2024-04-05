@@ -1,26 +1,26 @@
 function getComputerChoice() {
-    const choices = ['rock', 'paper', 'scissors'];
-    const randomIndex = Math.floor(Math.random() * 3);
-    return choices[randomIndex];
+  const choices = ["rock", "paper", "scissors"];
+  const randomIndex = Math.floor(Math.random() * 3);
+  return choices[randomIndex];
 }
 
 function playRound(playerChoice, computerChoice) {
-    playerChoice = playerChoice.toLowerCase();
-    computerChoice = computerChoice.toLowerCase();
+  playerChoice = playerChoice.toLowerCase();
+  computerChoice = computerChoice.toLowerCase();
 
-    if (playerChoice === computerChoice) {
-        return 'It\'s a tie!';
-    }
+  if (playerChoice === computerChoice) {
+    return "It's a tie!";
+  }
 
-    if (
-        (playerChoice === 'rock' && computerChoice === 'scissors') ||
-        (playerChoice === 'paper' && computerChoice === 'rock') ||
-        (playerChoice === 'scissors' && computerChoice === 'paper')
-    ) {
-        return 'You win!';
-    } else {
-        return 'You lose!';
-    }
+  if (
+    (playerChoice === "rock" && computerChoice === "scissors") ||
+    (playerChoice === "paper" && computerChoice === "rock") ||
+    (playerChoice === "scissors" && computerChoice === "paper")
+  ) {
+    return "You win!";
+  } else {
+    return "You lose!";
+  }
 }
 
 // function game() {
@@ -55,20 +55,18 @@ function playRound(playerChoice, computerChoice) {
 
 // game();
 
+const rockButton = document.getElementById("rock");
+const paperButton = document.getElementById("paper");
+const scissorButton = document.getElementById("scissors");
 
-
-const rockButton = document.getElementById('rock');
-const paperButton = document.getElementById('paper');
-const scissorButton = document.getElementById('scissors');
-
-rockButton.addEventListener('click', () => {
-    console.log(playRound('rock', getComputerChoice()));
+rockButton.addEventListener("click", () => {
+  console.log(playRound("rock", getComputerChoice()));
 });
 
-paperButton.addEventListener('click', () => {
-    console.log(playRound('paper', getComputerChoice()));
+paperButton.addEventListener("click", () => {
+  console.log(playRound("paper", getComputerChoice()));
 });
 
-scissorButton.addEventListener('click', () => {
-    console.log(playRound('scissors', getComputerChoice()));
+scissorButton.addEventListener("click", () => {
+  console.log(playRound("scissors", getComputerChoice()));
 });
